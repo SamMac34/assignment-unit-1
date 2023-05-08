@@ -1,14 +1,11 @@
 /* Give your page a fun background color */
 body {
-background-color: blue;
+    background-color: lightblue;
 }
 /* Make the header and footer a different color from the background */
-header {
-    color: white;
-}
-
-footer {
-    color: red;
+header, footer {
+    color: black;
+    background-color: aquamarine;
 }
 /* Align the h1 containing your name in the center of the header*/
 h1 {
@@ -17,13 +14,24 @@ h1 {
 /* Make your p tag a different color and italic */
 p {
     color: green;
+    font-style: italic;
+    text-align: center;
 }
 /* Put a border around your image */
 img {
-    border: 2px solid black;
-    max-width: 50%;
+    border: 3px solid black;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Change the font-family of your list */
 ul {
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+    display: inline-block;
+    text-align: left;
+}
+
+.FFList {
+    text-align: center;
 }
